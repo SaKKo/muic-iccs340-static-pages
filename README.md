@@ -1,3 +1,5 @@
+![](https://travis-ci.org/SaKKo/muic-iccs474-2015t2-static-pages.svg?branch=master)
+
 # Rails example for
 
 - StaticPages
