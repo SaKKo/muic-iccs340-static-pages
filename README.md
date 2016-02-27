@@ -12,3 +12,15 @@
     - controller
     - helpers
     - views
+
+# AJAX
+
+- Preparation
+  - User has_many Posts and has_many Comments
+  - Post has_many Comments
+- Execution
+  - Post is Server Rendered
+  - Comments are loaded via AJAX
+- Mustache Review
+- Rspec Model Testing For Comment
+- Checking Travis
