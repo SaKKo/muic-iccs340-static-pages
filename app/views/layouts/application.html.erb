@@ -28,8 +28,14 @@
       <%= yield %>
 
     </div> <!-- /container -->
+    <%= yield :js_top %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-
     <%= yield :js %>
+    <%= yield :js_bottom %>
+
+
+
+
+
   </body>
 </html>
