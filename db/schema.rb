@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160229065458) do
+ActiveRecord::Schema.define(version: 20160229085847) do
 
   create_table "pois", force: :cascade do |t|
     t.text     "name"
@@ -19,6 +19,15 @@ ActiveRecord::Schema.define(version: 20160229065458) do
     t.decimal  "longitude"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.text     "first_name"
+    t.text     "last_name"
+    t.text     "username"
+    t.text     "password_digest"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
 end

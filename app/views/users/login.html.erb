@@ -1,0 +1,9 @@
+<%= form_tag(users_sign_in_path, method: "post") do %>
+  <%= label_tag(:username) %><br>
+  <%= text_field_tag(:username, "", class: "form-control") %><br>
+
+  <%= label_tag(:password) %><br>
+  <%= password_field_tag(:password, "", class: "form-control") %><br>
+  <hr>
+  <%= submit_tag("Login", class: "btn btn-success") %>
+<% end %>
