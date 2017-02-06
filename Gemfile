@@ -1,4 +1,4 @@
-ruby "2.2.1"
+ruby "2.3.1"
 #ruby-gemset=muic_iccs474_2015t2
 
 source 'https://rubygems.org'
